@@ -1,0 +1,98 @@
+.history-item-with-time {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.history-item {
+  display: flex;
+}
+
+.history-item > div {
+  flex-grow: 1;
+}
+
+.company-logo {
+  height: 30px;
+  width: 30px;
+  margin-top: 2px;
+}
+
+.time {
+  color: #475569;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.txt-container {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+
+.domain-url {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #64748b;
+}
+
+button {
+  height: 20px;
+  width: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  border: none;
+  margin-top: 5px;
+}
+
+.delete-icon {
+  height: 20px;
+  width: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .history-item-with-time {
+    display: flex;
+    align-items: center;
+  }
+
+  .history-item {
+    flex-grow: 1;
+  }
+
+  .time {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 100px;
+    flex-shrink: 0;
+  }
+
+  .txt-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    overflow: auto;
+    margin-right: 10px;
+  }
+
+  .domain-url {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #64748b;
+  }
+}
